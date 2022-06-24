@@ -21,6 +21,9 @@ transform: translate(-50%);
 /* background-color: blue; */
 display: flex;
 }
+.header{
+position: fixed;
+}
 .ul-tag{
     display:flex;
     justify-content: space-between;
@@ -52,6 +55,10 @@ display: flex;
     width: 350px;
     font-size: 42px;
     margin-left: 215px;
+}
+.title5{
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 .messages-div{
 display: flex;
