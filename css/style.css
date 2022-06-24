@@ -1,0 +1,225 @@
+.bg-image{
+background-image:url(../images/image1.png);
+height: 311px;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.body{
+    height: 1500px;
+}
+.headerdiv{
+   position: relative;
+display: flex;
+}
+.header{
+    width:1088px;
+    height: 20px;
+ position: absolute;
+ left: 50%;
+ top: 50px;
+transform: translate(-50%);
+/* background-color: blue; */
+display: flex;
+}
+.ul-tag{
+    display:flex;
+    justify-content: space-between;
+    width:500px ;
+    position: absolute;
+    left: 50%;
+    color: white;
+
+}
+.logo{
+    width:150px;
+    color: white;
+}
+.map{
+  width: 1088px;
+}
+.map-div{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.title3{
+    font-size: 14px;
+    color: blue;
+    margin-left: 205px;
+}
+.title4{
+    width: 350px;
+    font-size: 42px;
+    margin-left: 205px;
+}
+.messages-div{
+display: flex;
+/* flex-direction: column; */
+/* align-items:center ; */
+width: 1088px;
+margin: 0 auto;
+height: 303px;
+}
+.input{
+    width: 352px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.submit{
+    background-color: #5863F8;
+    width: 352px;
+    height: 60px;
+    color: white;
+ }
+ .image2{
+    width: 15px;
+   margin-top: 22px;
+   margin-left: 10px;
+ }
+ .textarea-div{
+    max-width: 720px;
+    width: 100%;
+    height:245px;
+    margin-top:8px;
+ }
+ .textarea{
+    resize: none;
+  max-width: 720px;
+  width: 100%;
+  height: 245px;
+  margin-top:12px;
+  outline: none;
+ }
+ .inputs-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-top: 20px;
+ }
+ .gps{
+font-size: 13px;
+color:white;
+ }
+.call{
+    font-size: 13px;
+    color:white;
+}
+.email{
+    font-size: 13px;
+    color:white;
+}
+ .icons-div{
+    display: flex;
+    justify-content: space-evenly;
+margin-top: 50px;
+ }
+ .icon{
+    width: 59px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0 auto;
+ }
+ .contact-div{
+    width: 200px;
+    text-align: center;
+ }
+/* footer */
+.footer{
+    width:100%;
+    height: 395px;
+    background-color: #121212;
+    display: flex;
+    margin-top: 100px;
+}
+.fa-facebook{
+    color: blue;
+    font-size: 30px;
+}
+.fa-twitter-square{
+    color: lightblue;
+    font-size: 30px;
+    margin-left: 10.6px;
+    margin-right: 10.6px;
+}
+.gmail{
+    font-size: 16px;
+    color: blue;
+}
+.location{
+    font-size: 16px;
+    color: blue;
+}
+.phone{
+    font-size: 16px;
+    color: blue;
+}
+
+
+.paragraph{
+    color: white;
+    width: 260px;
+}
+.google{
+color: red;
+font-size: 30px;
+}
+.footer-box{
+    width: 260px;
+    margin-top: 143px;
+    margin-left: 139px;
+}
+.footer-box2{
+    margin-top: 130px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-box3{
+    margin-top: 130px;
+    margin-left: 81px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-box4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 106px;
+}
+.icons{
+    margin-top: 20px;
+}
+.title2{
+    color:white;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footer-span{
+    margin-bottom: 10px;
+color: #5863F8;
+}
+.footer-p{
+    width: 559px;
+    color: white;
+}
+.footer-title{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px
+}
+.contact-info{
+    margin-bottom: 20px;
+}
+.website{
+  
+}
+
