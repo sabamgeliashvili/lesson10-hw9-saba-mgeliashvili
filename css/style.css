@@ -92,7 +92,7 @@
     .burger-bar{
         display: none;
         font-size: 30px;
-        color: white;
+        color: gray;
         max-width: 500px;
         width: 100%;
     }
