@@ -21,6 +21,9 @@
           max-width: 30px;
           width: 100%;
         }
+        .bg-text{
+        margin-left:0px;
+        }
     }
     @media(max-width:1024px){
        .ul-tag{

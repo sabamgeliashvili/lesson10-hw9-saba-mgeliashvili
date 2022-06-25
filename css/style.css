@@ -292,6 +292,8 @@
         position:relative;
         /* flex-wrap: wrap; */
         display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     .fa-facebook{
         color: blue;
@@ -329,15 +331,15 @@
         display: flex;
         max-width: 260px;
         width:100%;
-        margin-top: 143px;
-        margin-left: 139px;
+        /* margin-top: 143px;
+        margin-left: 139px; */
         flex-direction: column;
     }
     .footer-box2{
         max-width: 103px;
         width:100%;
-        margin-top: 130px;
-        margin-left: 200px;
+        /* margin-top: 130px;
+        margin-left: 200px; */
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -350,8 +352,8 @@
     .footer-box3{
         max-width: 78px;
         width:100%;
-        margin-top: 130px;
-        margin-left: 81px;
+        /* margin-top: 130px;
+        margin-left: 81px; */
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -370,8 +372,8 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        margin-top: 130px;
-        margin-left: 106px;
+        /* margin-top: 130px;
+        margin-left: 106px; */
     }
     .icons{
         margin-top: 20px;
