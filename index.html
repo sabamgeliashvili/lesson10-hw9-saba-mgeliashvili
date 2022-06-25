@@ -7,23 +7,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body class="body">
 <div class="bg-image">
+    <div class="bg-text">
+        <h6 class="title6">contact</h6>
+        <span class="bg-span">home</span>
+        <span class="bg-span">contact</span>
+    </div>
     <div class="headerdiv">
     <header class="header">
-        <a class="logo" href="index.html"><img src="images/logo.svg" alt=""></a>
+        <a class="logo" href="index.html"><img src="images/logo.svg" alt="image"></a>
         <nav>
             <ul class="ul-tag">
-                <li>HOME</li>
-                <li>ROOMS</li>
-                <li>RESTAURANT</li>
-                <li>ABOUT US</li>
-                <li>BLOG</li>
-                <li>CONTACT</li>
+                <li><a class="list" href="index.html">HOME</a></li>
+                <li><a class="list" href="index.html">ROOMS</a>
+                <i class="fa-solid fa-angle-down">
+                </i>
+                <li><a class="list" href="index.html">RESTAURANT</a></li>
+                <li><a class="list" href="index.html">ABOUT US</a></li>
+                <li><a class="list" href="index.html">BLOG</a></li>
+                <li><a class="list" href="index.html">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="burger-bar">
+            <i class="fa-solid fa-bars"></i>
+        </div>
     </header>
     </div>
 </div>
@@ -42,8 +54,8 @@
        <input class="input" type="text" placeholder="your name..." required>
        <input class="input"  type="text" placeholder="name/surname..." required>
        <input class="input" type="text" placeholder="Email" required>
-    <button class="submit" type="submit" value="submit">send<img class="image2" src="images/send.png" alt=""></button>
-    <img class="image2" src="images/send.png" alt="">
+    <button class="submit" type="submit" value="submit">send<img class="image2" src="images/send.png" alt="image"></button>
+    <img class="image2" src="images/send.png" alt="image">
     </div>
     </div>
     <div class="icons-div">
@@ -67,6 +79,16 @@
     <span class="span2">Main Str Chicago Ilinois
         Main Street New York City</span>
     </div class="contact-div">
+    </div>
+    <div class="sec2-title">
+    <h3 class="title3">PHOTOS</h3>
+    <h4 class="title4">See our latest photos
+        from restaurant and hotel</h4>
+        </div>
+    <div class="section2-div">
+    <div><img src="images/image1.jpg" alt="image"></div>
+    <div><img src="images/image2.jpg" alt="image"></div>
+    <div><img src="images/image3.jpg" alt="image"></div>
     </div>
 <footer>
     <div class="footer">
@@ -98,19 +120,21 @@
     <span class="contact-info">
         <i class="fa-solid fa-envelope "></i>
         <a href="mailto: mail@gmail.com "> mail@gmail.com </a>
-    </span>
-    <span class="contact-info">
-        <i class="fa-solid fa-phone phone"></i>
-        <a href="tel:+995 32 222 222">+995 32 222 222</a>
-    </span>
-    <span class="contact-info">
-        <i class="fa-solid fa-location-dot location"></i>
-        <a href="https://goo.gl/maps/QsSLwRbBtzrgoN2C8">Main str chicago ilinois</a>
-    </span>
-</div>
-    <p class="footer-p">Copyright ©2020 All rights reserved | This template is made with love by <a href="">Marian</a></footer><p>
+        </span>
+        <span class="contact-info">
+            <i class="fa-solid fa-phone phone"></i>
+            <a href="tel:+995 32 222 222">+995 32 222 222</a>
+        </span>
+        <span class="contact-info">
+            <i class="fa-solid fa-location-dot location"></i>
+            <a href="https://goo.gl/maps/QsSLwRbBtzrgoN2C8">Main str chicago ilinois</a>
+        </span>
+    </div>
+    <div class="website-div">
+         <p class="footer-p">Copyright ©2020 All rights reserved | This template is made with love by<a href="index.html">Marian</a></p>
         <p class="website">www.portfolioname.com</p>
     </div>
+</div>
 </footer>
 </body>
 </html>

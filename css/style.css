@@ -11,7 +11,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 1700px;
-    background-size: 100%;
+    background-size: cover;
+    display: flex;
     }
     .body{
         height: 1500px;
@@ -47,15 +48,63 @@
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        width:500px ;
+       max-width:500px ;
+       width: 100%;
         position: absolute;
         left: 50%;
         color: white;
-    
+        font-family: 'Poppins semibold';
+    }
+    /* pseudo elements */
+    .list::after{
+    content: '';
+    position: absolute;
+    height: 10%;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    transition-duration: 0.5s;
+    }
+    .list:hover::after{
+    width: 100%;
+    }
+    .list:hover{
+        color:royalblue;
+    }
+
+
+    .list{
+        color: white;
+        position: relative;
+    }
+    .burger-bar{
+        display: none;
+        font-size: 30px;
+        color: white;
+        max-width: 500px;
+        width: 100%;
+    }
+    .bg-text{
+       margin-left: 210px;
+       margin-top: 140px;
+        color:white;
+        max-width: 1170;
+        width: 100%;
+    }
+    .title6{
+        font-size: 42px;
+        font-family: 'Poppins extrabold';
+    }
+    .bg-span{
+        font-size: 14px;
+        font-family: 'Poppins medium';
     }
     .logo{
-        width:150px;
+        max-width:650px;
+        width: 100%;
         color: white;
+
     }
     .map{
       max-width: 1088px;
@@ -76,11 +125,23 @@
         font-size: 14px;
         color: blue;
         margin-left: 220px;
+        max-width: 60px;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: 'Great Vibes';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
     }
     .title4{
-        width: 350px;
+        max-width: 400px;
+        width: 100%;
         font-size: 42px;
         margin-left: 215px;
+        font-family: 'Great Vibes';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
     }
     .title5{
         margin-top: 15px;
@@ -190,6 +251,23 @@
         width: 200px;
         text-align: center;
      }
+     /* section 2 */
+.section2-div{
+    display: flex;
+    max-width: 1700px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sec2-title{
+    margin-top: 90px;
+    max-width:570px;
+    width:100%;
+}
+
+
+
     /* footer */
     .footer{
         max-width:1700px;
@@ -198,9 +276,9 @@
         background-color: #121212;
         display: -webkit-box;
         display: -ms-flexbox;
-        margin-top: 100px;
+       margin-top: -5px; 
         position:relative;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         display: flex;
     }
     .fa-facebook{
@@ -236,14 +314,16 @@
     font-size: 30px;
     }
     .footer-box{
+        display: flex;
         max-width: 260px;
-        width: 100%;
+        width:100%;
         margin-top: 143px;
         margin-left: 139px;
+        flex-direction: column;
     }
     .footer-box2{
         max-width: 103px;
-        width: 100%;
+        width:100%;
         margin-top: 130px;
         margin-left: 200px;
         display: -webkit-box;
@@ -257,7 +337,7 @@
     }
     .footer-box3{
         max-width: 78px;
-        width: 100%;
+        width:100%;
         margin-top: 130px;
         margin-left: 81px;
         display: -webkit-box;
@@ -296,6 +376,9 @@
     .footer-p{
         width: 559px;
         color: white;
+        position: absolute;
+        left: 0;
+        bottom:30px;
     }
     .footer-title{
         color: white;
@@ -312,5 +395,6 @@
         font-size: 14px;
         color: #5863F8;
         right: 0;
-        bottom: -1170px;
+        bottom: 30px;
     }
+   

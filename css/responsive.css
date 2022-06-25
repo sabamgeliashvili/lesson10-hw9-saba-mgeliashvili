@@ -1,0 +1,27 @@
+@media(max-width:1075px){
+    .section2-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media(max-width:590px){
+    .title4{
+        margin-left: 0;
+    }
+    .title3{
+        margin-left: 0;
+    }
+}
+@media(max-width:768px){
+    .ul-tag{
+        display: none;}
+        .burger-bar{
+            display: block;
+          /* margin-left:480px; */
+          max-width: 30px;
+          width: 100%;
+        }
+    }
+
+    
