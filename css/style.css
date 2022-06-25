@@ -290,10 +290,11 @@
         display: -ms-flexbox;
        margin-top: -5px; 
         position:relative;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        
     }
     .fa-facebook{
         color: blue;
@@ -387,22 +388,20 @@
         margin-bottom: 10px;
     color: #5863F8;
     }
-    .footer-p{
-        width: 559px;
+    .title1{
         color: white;
-        position: absolute;
-        left: 0;
-        bottom:30px;
+        font-size: 24px;
+        margin-bottom: 20px;
     }
     .footer-title{
-        color: white;
+       color: white;
         font-size: 24px;
         margin-bottom: 20px
     }
     .contact-info{
         margin-bottom: 20px;
     }
-    .website{
+    /* .website{
         max-width: 174px;
         width: 100%;
         position:absolute;
@@ -410,5 +409,12 @@
         color: #5863F8;
         right: 0;
         bottom: 30px;
+    } */
+    .website-div{
+        max-width: 1088px;
+        width: 100%;
+        color: white;
+        justify-content: space-between;
+        display: flex;
     }
    
