@@ -23,5 +23,11 @@
           width: 100%;
         }
     }
+    @media(max-width:1024px){
+       .ul-tag{
+        flex-direction: column;
+        margin-left: 275px;
+       }
+    }
 
     
