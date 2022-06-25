@@ -93,7 +93,7 @@
         display: none;
         font-size: 30px;
         color: gray;
-        max-width: 500px;
+        /* max-width: 30px; */
         width: 100%;
     }
     .bg-text{
@@ -112,7 +112,7 @@
         font-family: 'Poppins medium';
     }
     .logo{
-        max-width:650px;
+        max-width:200px;
         width: 100%;
         color: white;
 

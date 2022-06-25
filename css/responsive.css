@@ -18,7 +18,6 @@
         display: none;}
         .burger-bar{
             display: block;
-          /* margin-left:480px; */
           max-width: 30px;
           width: 100%;
         }
