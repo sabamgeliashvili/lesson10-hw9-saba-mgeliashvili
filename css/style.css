@@ -413,6 +413,10 @@
         color:white;
         margin-bottom: 20px;
         font-size: 18px;
+        font-family: 'Poppins bold';
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
     }
     .footer-span{
         margin-bottom: 10px;
@@ -422,6 +426,10 @@
         color: white;
         font-size: 24px;
         margin-bottom: 20px;
+        font-family: 'Poppins bold';
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
     }
     .footer-title{
        color: white;
