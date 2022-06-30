@@ -39,16 +39,8 @@
         .contact-div{
             margin-bottom: 20px;
         }
-    }
-    @media(max-width:320px){
-        .textarea-div{
-            display: none;
-        }
-        .input{
-            width: 250px;
-        }
-        .submit{
-            width: 250px;
+        .footer{
+            height: auto;
         }
     }
 
